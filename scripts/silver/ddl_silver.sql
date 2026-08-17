@@ -66,8 +66,8 @@ Go
 
 		Create Table silver.erp_cust_az12(
 			cid      Nvarchar(50),
-      bdate    Date,
-      gen      Nvarchar(50)
+      		bdate    Date,
+      		gen      Nvarchar(50)
 			dwh_create_date DateTime2 Default GetDate() 
 		);
 Go
@@ -78,7 +78,7 @@ Go
 
 		Create Table silver.erp_loc_a101(
 			cid      Nvarchar(50),
-      centrty  Nvarchar(50)
+      		centrty  Nvarchar(50)
 			dwh_create_date DateTime2 Default GetDate() 
 		);
 Go
